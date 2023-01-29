@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>checkout</title>
+<link rel="stylesheet" type="text/css" href="css/impresso4.css">
+<!-- social media icons were taken from the resourse below  -->
+<script src="https://kit.fontawesome.com/cca0a1b6fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<div>
+<nav>
+      <div class="logo">
+        <p>Impresso</p>
+        
+				<img src="images/logo1.jpeg" class="log" alt="logo" width="100" height="70"/>
+
+      </div>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+		<li><a href="items.php">Items</a></li>
+		<li><a href="about-us.html">About us</a></li>
+        <li><a href="favorite.html" class="img"><img src="images/fav.png" alt="Fav" width="20" height="20"/></a></li>
+      </ul>
+ </nav>
+ </div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+ <div class="Review">
+
+
+<h4> Select The Payment Method:  </h4>
+<input type="radio" id="CashOnDelivery" name="PaymentMethod" value="CashOnDelivery">
+<label for="CashOnDelivery">Cash On Delivery</label><br>
+
+<input type="radio" id="Credit/DebitCardPayment" name="PaymentMethod" value="Credit/DebitCardPayment">
+<label for="Credit/DebitCardPayment">Credit/Debit Card Payment</label><br>
+
+ <!--card info -->
+        <div class="cardInfo">
+            <input class="cnum" type="text" id="ccnum" name="cardnumber" placeholder="Credit card number">
+            <input class="cexpyear" type="text" id="expyear" name="expyear" placeholder="expyear">
+            <input class="ccvv" type="text" id="cvv" name="cvv" placeholder="CVV">
+              <div>
+                 <input class="cname" type="text" id="cname" name="cardname" placeholder="Name on Card">
+              </div>
+            <div>
+			  <input  type="submit" class="SAVE" value="Save" />
+			</div>
+          </div>
+
+  <!--end-->
+ <br>
+
+<h4> Select The Address: </h4>
+  <input type="radio" id="Home" name="Address" value="Home">
+  <label for="Home">Home<p class="addressFormat">
+                                            King Khalid Street <br>
+ 										    Riyadh Al-Riyadh Saudi Arabia </p>
+											</label><br>
+
+  <input type="radio" id="Work" name="Address" value="work">
+  <label for="work">Work <p class="addressFormat">
+                                            Uthman Ibn Affan Street <br>
+ 										    Riyadh Al-Riyadh Saudi Arabia </p>
+											</label><br>
+
+<h4 class="points">Points total:   <input type="number" min="0" max="7" step="1" value="0" />  </h4>
+
+<br>
+<br>
+<br>
+<br>
+
+<p><input Class="submit" type="submit" value="Pay Now"> </p>
+</div>
+ </div>
+
+ <footer>
+  <br>
+<div class="footer-content" align="center">
+  <h3>ImpressoSupport@outlook.com <br> Phone number:9201234600 </h3>
+<br>
+  <div class="socials">
+<ul>
+
+<li class="twitter" ><a href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+<li class="instagram"><a href="http://instagram.com"> <i class="fab fa-instagram"></i></a></li>
+<li class=facebook><a href="http://facebook.com"> <i class="fab fa-facebook"></i></a></li>
+</ul>
+</div>
+
+</div>
+
+
+
+
+
+
+</footer>
+
+
+
+</body>
+</html>
